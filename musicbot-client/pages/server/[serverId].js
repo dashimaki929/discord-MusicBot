@@ -16,10 +16,10 @@ import QueueMusicIcon from '@material-ui/icons/QueueMusic';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 
-import PlayingTab from '../../modules/server/playingTab';
-import PlaylistsTab from '../../modules/server/playlistsTab';
-import ArtistsTab from '../../modules/server/artistsTab';
-import SettingsTab from '../../modules/server/settingsTab';
+import PlayingTab from '../../parts/server/playingTab';
+import PlaylistsTab from '../../parts/server/playlistsTab';
+import ArtistsTab from '../../parts/server/artistsTab';
+import SettingsTab from '../../parts/server/settingsTab';
 
 export default function BotController() {
   const router = useRouter();
